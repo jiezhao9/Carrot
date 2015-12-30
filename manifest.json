@@ -1,0 +1,19 @@
+{
+	"name": "Carrot!",
+	"description": "a Chrome extension that providing several context menus",
+	"version": "0.1",
+	"background": {
+		"scripts": ["carrot.js"],
+		"persistent": false
+	},
+	"permissions": ["contextMenus","tabs", "http://*/*", "https://*/*"],
+	"browser_action": {
+		"default_title": "Just right mouse click on this page or click after selecting something",
+		"default_icon": "carrot-16.png"
+	},
+	"icons": {
+		"16": "carrot-16.png",
+		"48": "carrot-48.png"
+	},
+	"manifest_version": 2
+}
